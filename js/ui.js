@@ -1152,6 +1152,7 @@ function createElement(type, obj, id, flag) {
     }
 }
 function ui() {
+    $('#wrap').show().css('display', 'none')
     if (window.innerWidth % 5 != 0 && init.q.view24 && lastCombat != null && lastCombat.partys >= init.q.view24_Number) {
         var w = window.innerWidth % 5
         for (var i = 0; i < w; i++)
